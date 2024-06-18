@@ -1,0 +1,95 @@
+main {}
+main .main1_bg {
+    width: 1920px;
+    margin: 0 auto; 
+    background-image: url(../images/main1_bg.jpg);
+    background-repeat: no-repeat;
+}
+main .main1_bg .main_1 {}
+main .main1_bg .main_1 header {
+    display: flex; align-items: center;
+    padding: 80px 40px;
+}
+main .main1_bg .main_1 header h1 {}
+main .main1_bg .main_1 header h1 a {
+    margin-right: 140px;
+}
+main .main1_bg .main_1 header h1 a img {}
+main .main1_bg .main_1 header .gnb {
+    display: flex;
+}
+main .main1_bg .main_1 header .gnb li {}
+main .main1_bg .main_1 header .gnb li a {
+    color: #fff; font-size: 2.188rem; 
+    margin-right: 40px;
+}
+/* 서브메뉴 */
+main .main1_bg .main_1 header .gnb li .sub {
+    display: none;
+}
+main .main1_bg .main_1 header .gnb li a .sub .sub_menu {}
+main .main1_bg .main_1 header .gnb li a .sub .sub_menu a {}
+/* 글로벌 버튼 영어 한국어 */
+main .main1_bg .main_1 header .header_right {
+    display: flex; align-items: center;
+}
+main .main1_bg .main_1 header .header_right .global {
+    width: 240px; height: 68px; 
+    border: 1px solid #fff; border-radius: 35px;
+    display: flex; justify-content: space-between;
+    align-items: center; background-color: #072F75;
+    padding-left: 20px; padding-right: 20px;
+    margin-right: 35px;
+    color: #fff;
+}
+main .main1_bg .main_1 header .header_right .global img {}
+main .main1_bg .main_1 header .header_right a {
+    font-size: 1.625rem; color: #fff;
+}
+main .main1_bg .main_1 header .header_right a img {}
+/* 메인 내용들 */
+main .main1_bg .main_1 .main1_contents {
+    text-align: center;
+}
+main .main1_bg .main_1 .main1_contents h2 {
+    margin-bottom: 32px;
+}
+main .main1_bg .main_1 .main1_contents h2 img {}
+main .main1_bg .main_1 .main1_contents p {
+    font-size: 1.875rem; color: #fff;
+    font-weight: 500;
+    margin-bottom: 473px;
+}
+/* 내려가는 화살표 */
+main .main1_bg .main_1 .main1_contents a {
+    margin-bottom: 28px;
+}
+main .main1_bg .main_1 .main1_contents a img {}
+/* ============================================== */
+main .main_2 {
+    padding-top: 200px; padding-bottom: 124px;
+    margin: 0 auto; width: 1920px;
+}
+main .main_2 .main2_title {
+    font-size: 3.75rem; font-weight: 700;
+}
+main .main_2 .main2_contents {
+    margin-top: 71px;
+    display: flex; 
+}
+main .main_2 .main2_contents .individual_content {
+    padding-right: 45px; padding-left: 45px; padding-bottom: 80px;
+    text-align: center;
+    width: 599px; 
+}
+main .main_2 .main2_contents .individual_content img {}
+main .main_2 .main2_contents .individual_content h3 {
+    margin-top: 73px; margin-bottom: 22px;
+    font-size: 2.813rem; font-weight: 700;
+}
+main .main_2 .main2_contents .individual_content p {
+    font-size: 1.875rem; color: #575252;
+}
+/* ============================================== */
+main .main3_bg {background-image: url(../images/main3_bg.jpg);}
+main .main3_bg .main_3 {}
