@@ -91,5 +91,235 @@ main .main_2 .main2_contents .individual_content p {
     font-size: 1.875rem; color: #575252;
 }
 /* ============================================== */
-main .main3_bg {background-image: url(../images/main3_bg.jpg);}
-main .main3_bg .main_3 {}
+main .main3_bg {
+    width: 1920px;
+    margin: 0 auto; 
+    background-image: url(../images/main3_bg.jpg);
+    background-repeat: no-repeat;
+}
+main .main3_bg .main_3 {
+    text-align: center; 
+}
+main .main3_bg .main_3 .main3_contents {}
+main .main3_bg .main_3 .main3_contents .sub_title {
+    padding-top: 179px; margin-bottom: 33px;
+    font-size: 3.125rem; font-weight: 500;
+    color: #fff;
+}
+main .main3_bg .main_3 .main3_contents .main3_title {
+    font-size: 8.125rem; font-weight: 700;
+    margin-bottom: 106px;
+    color: #fff;
+}
+main .main3_bg .main_3 .main3_contents > p {
+    font-size: 1.875rem; font-weight: 600;
+    margin-bottom: 103px;
+    color: #fff; line-height: 50px; line-height: -0.2;
+}
+/* ul 시작 */
+main .main3_bg .main_3 .main3_type {
+    margin: 0 auto; text-align: center;
+    padding-bottom: 211px;
+}
+main .main3_bg .main_3 .main3_type .main3_individual_type {
+    display: flex; text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+main .main3_bg .main_3 .main3_type .main3_individual_type li {
+    width: 344px; height: 344px; border-radius: 300px;
+    background-color: rgb(232, 228, 228, 0.2);
+    text-align: center;
+    padding: 78px 75px;
+    margin-right: -64px;
+}
+main .main3_bg .main_3 .main3_type .main3_individual_type li img {
+    margin-bottom: 40px;
+}
+main .main3_bg .main_3 .main3_type .main3_individual_type li > p {
+    font-weight: 2.5rem; font-weight: 600;
+    color: #fff;
+}
+/* ============================================== */
+main .main_4 {
+    width: 1920px;
+    margin: 0 auto; 
+    display: flex; justify-content: space-between;
+    padding-bottom: 194px;
+}
+main .main_4 .main4_left {
+    padding-top: 406px;
+}
+main .main_4 .main4_left > p {
+    font-size: 2.5rem; font-weight: 500; line-height: -0.2;
+    margin-bottom: 55px;
+}
+main .main_4 .main4_left > h3 {
+    margin-bottom: 77px;
+    font-weight: 700; font-size: 3.75rem; line-height: -0.2;
+}
+main .main_4 .main4_left .main4_contents {
+    font-size: 1.563rem; line-height: -0.2;
+    margin-bottom: 80px;
+}
+main .main_4 .main4_left .main4_btn {
+    width: 1068px; height: 104px;
+    font-size: 2.5rem; line-height: -0.2;
+    background-color: #fff; 
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-bottom: 194px;
+    display: flex; align-items: center; 
+    margin: 0 auto;
+}
+main .main_4 .main4_left .main4_btn img {margin-left: 20px;}
+main .main_4 .main4_right {
+    padding-top: 245px;
+}
+main .main_4 .main4_right img {}
+/* ============================================== */
+main .main5_bg {background-color: #F3EFEF;}
+main .main5_bg .main_5 {
+    width: 1920px;
+    margin: 0 auto; 
+    padding-bottom: 218px;
+}
+main .main5_bg .main_5 .main5_top {
+    width: 1900px;
+    display: flex; justify-content: space-between;
+    padding-top: 98px;
+}
+main .main5_bg .main_5 .main5_top .main5_title {}
+main .main5_bg .main_5 .main5_top .main5_title h2 {
+    font-size: 4.375rem; font-weight: 700;
+    margin-bottom: 31px;
+}
+main .main5_bg .main_5 .main5_top .main5_title p {
+    font-size: 2.5rem; line-height: -0.2;
+}
+main .main5_bg .main_5 .main5_top .main5_btn {}
+main .main5_bg .main_5 .main5_top .main5_btn .new_picogram_btn {
+    width: 582px; height: 116px; background-color: #F3EFEF;
+    border: 1px solid #000; border-radius: 50px;
+    display: flex; align-items: center; text-align: center;
+    font-size: 2rem; line-height: -0.2;
+    padding: 34px 59px;
+}
+main .main5_bg .main_5 .main5_top .main5_btn .new_picogram_btn img {
+    margin-left: 15px;
+}
+/* 새로 나온 상품 소개 시작 */
+main .main5_bg .main_5 .main5_news {
+    width: 1900px;
+    margin-top: 78px;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products {
+    display: flex; justify-content: space-between; 
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul {
+    display: flex;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li {}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li img {
+    margin-right: 60px;
+}
+/* 새로운 상품 설명 시작 */
+main .main5_bg .main_5 .main5_news .main5_news_products ul li p {
+    font-size: 2.188rem; line-height: -0.2;
+    margin-bottom: 62px;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li h4 {
+    font-size: 2.813rem; font-weight: 700;
+    margin-bottom: 90px;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li .news_contents {
+    font-size: 1.875rem; line-height: -0.2;
+    margin-bottom: 100px;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li .view_more_btn {
+    border: none; 
+    display: flex; align-items: center;
+    font-size: 2.188rem; line-height: -0.2;
+}
+main .main5_bg .main_5 .main5_news .main5_news_products ul li .view_more_btn img {
+    margin-left: 15px;
+}
+/* 구분선 디자인 */
+main .main5_bg .main_5 .main5_news .line {
+    width: 1835px; height: 10px;
+    background-color: #D9D9D9;
+    margin-top: 115px;
+}
+/* ============================================== */
+main .main_6 {
+    width: 1920px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+    padding-top: 171px;
+    padding-bottom: 151px;
+    border-bottom: 1px solid #D9D9D9;
+}
+main .main_6 .main6_left {
+    display: flex; 
+}
+main .main_6 .main6_left ul {
+    margin-right: 106px;
+}
+main .main_6 .main6_left ul .main6_menu {
+    margin-bottom: 50px;
+}
+main .main_6 .main6_left ul .main6_menu a {
+    font-size: 1.563rem; font-weight: 600; line-height: -0.2;
+}
+/* 서브메뉴 시작 */
+main .main_6 .main6_left ul .main5_sub_menu {}
+main .main_6 .main6_left ul .main5_sub_menu > ul {}
+main .main_6 .main6_left ul .main5_sub_menu > ul li {
+    margin-bottom: 30px;
+}
+main .main_6 .main6_left ul .main5_sub_menu > ul li a {
+    font-size: 1.125rem; line-height: -0.2;
+}
+/* 버튼  */
+main .main_6 .main6_right {
+    display: flex; flex-flow: column nowrap;
+}
+main .main_6 .main6_right .main6_btn {
+    width: 494px; height: 60px;
+    border: none; background-color: #fff;
+    border-bottom: 1px solid #888;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 1.875rem; font-weight: 500;
+    margin-bottom: 10px;
+}
+main .main_6 .main6_right .main6_btn img {}
+/* ============================================== */
+main .main_7 {
+    width: 1920px; margin: 0 auto;
+}
+main .main_7 h1 {}
+main .main_7 h1 a {}
+main .main_7 h1 a img {}
+main .main_7 .main7_contents {
+    padding-left: 50px;
+    margin-top: 50px;
+    color: #aca8a8; font-size: 1.875rem; font-weight: 500; line-height: -0.2;
+}
+main .main_7 .main7_contents ul {
+    margin-bottom: 50px;
+    display: flex;
+}
+main .main_7 .main7_contents ul li {}
+main .main_7 .main7_contents ul li::after {
+    content: '|';
+    margin-left: 48px; margin-right: 48px;
+}
+main .main_7 .main7_contents ul li:last-child::after {display: none;}
+main .main_7 .main7_contents .email {
+    margin-bottom: 50px;
+}
+main .main_7 .main7_contents .address {
+    margin-bottom: 50px;
+}
+main .main_7 .main7_contents .copyright {
+    padding-bottom: 600px;
+}
