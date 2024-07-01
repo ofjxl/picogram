@@ -1,0 +1,207 @@
+header {
+    width: 1820px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 40px 0;
+}
+/* --- 피코그램 로고 사진 */
+header h1 {}
+header h1 a {}
+header h1 a img {}
+/* --- 메인 메뉴 */
+header nav {
+    margin-left: 293px;
+}
+header nav .gnb {
+    display: flex;
+}
+header nav .gnb li {
+    margin-right: 100px;
+}
+header nav .gnb li:last-child {margin-right: 0;}
+header nav .gnb li a {}
+/* --- >>> 서브메뉴 display none */
+header nav .gnb li .sub {display: none;}
+header nav .gnb li .sub li {}
+header nav .gnb li .sub li a {}
+/* --- 퓨리얼 브랜드몰 버튼, 언어 바꾸는 기능 */
+header .header_right {
+    margin-left: 293px;
+    display: flex; align-items: center;
+}
+header .header_right .brand {
+    width: 149px;
+    border: 0;
+    font-size: 0.875rem; color: #0C73CF; background-color: #fff;
+    text-align: center; justify-content: space-between; align-items: center;
+}
+header .header_right .brand img {}
+header .header_right a {
+    margin-left: 20px;
+    display: flex; align-items: center;
+    font-size: 0.875rem; 
+}
+header .header_right a img {
+    margin-right: 7px;
+}
+/* --- 메인에서도 position fixed */
+.fix .research {
+    margin: 0 auto;
+    height: 44px;
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    display: flex; align-items: center; justify-content: center;
+}
+.fix .research a {
+    margin-right: 36px;
+    display: flex; align-items: center;
+}
+.fix .research a:last-child {margin-right: 0;}
+.fix .research a span {
+    font-size: 0.875rem; 
+    margin-right: 91px;
+}
+.fix .research a img {}
+.fix .procedure {
+    width: 1820px; margin: 0 auto;
+    margin-top: 20px; margin-bottom: 14px;
+}
+.fix .procedure p {
+    display: flex; align-items: center; justify-content: end;
+}
+.fix .procedure p span {
+    font-size: 0.813rem; margin-right: 2px;
+}
+.fix .procedure p span:last-child {margin-right: 0;}
+.fix .procedure p img {
+    margin-right: 2px;
+}
+.fix .procedure .introduce {color: #9C2033;}
+/* -------------- */
+/* 서브 페이지 */
+main {
+    width: 100%; margin: 0 auto;
+    position: absolute;
+}
+/* ----side subv menu 시작 */
+main .side_sub_menu {
+    position: fixed; left: 50px; top: 204px;
+    display: flex; flex-flow: column nowrap;
+}
+main .side_sub_menu a {
+    margin-bottom: 57px;
+    font-size: 1.063rem; font-weight: 600;
+}
+/* ====부서 소개 1-1 */
+main .main1_1 {}
+main .main1_1 h2 {
+    font-size: 2.625rem;
+    font-weight: 600;
+    margin-left: 340px;
+    margin-bottom: 50px;
+    line-height: 55px;
+}
+main .main1_1 p {}
+main .main1_1 p img {
+    width: 100%;
+}
+/* ====부서소개 1-2 */
+main .main1_2 {
+    margin-top: 121px;
+}
+main .main1_2 .department_contents {
+    margin-left: 340px;
+    font-size: 1.375rem; letter-spacing: -0.2px; line-height: 42px;
+}
+main .main1_2 .division {
+    margin: 56px 340px;
+}
+main .main1_2 .division ul {
+    display: flex;
+}
+main .main1_2 .division ul li {border: 1px solid #8A8A8A;
+    margin-right: 62px;
+    display: flex; flex-flow: column nowrap; text-align: center;
+    width: 377px;
+    font-size: 1.375rem; letter-spacing: -0.2px;
+    padding-bottom: 72px;
+}
+main .main1_2 .division ul li:last-child {margin-right: 0;}
+main .main1_2 .division ul li a {}
+main .main1_2 .division ul li a img {
+    margin-top: 72px; margin-bottom: 10px;
+}
+/* ==== 신뢰성시험 2-1 */
+main .main2_1 {}
+main .main2_1 h2 {
+    font-size: 2.625rem;
+    font-weight: 600;
+    margin-left: 340px;
+    margin-bottom: 50px;
+    line-height: 55px;
+}
+main .main2_1 .main2_1_contents {
+    display: flex; margin-left: 340px;
+}
+main .main2_1 .main2_1_contents .left {}
+main .main2_1 .main2_1_contents .left img {width: 100%;}
+main .main2_1 .main2_1_contents .right {margin-left: 190px;}
+main .main2_1 .main2_1_contents .right .right_contents {
+    margin-bottom: 52px;
+}
+main .main2_1 .main2_1_contents .right .right_contents p {
+    font-size: 1.125rem; line-height: 36px; letter-spacing: -0.2px;
+}
+main .main2_1 .main2_1_contents .right .lab_logo {}
+main .main2_1 .main2_1_contents .right .lab_logo img {
+    margin-right: 17px;
+}
+main .main2_1 .main2_1_contents .right .lab_logo img:last-child {margin-right: 0;}
+main .main2_2 {margin-top: 168px; margin-bottom: 216px;}
+main .main2_2 img {width: 100%;}
+/* ==== 품질보증시험 */
+main .main3_1 {
+    margin-left: 340px;
+    display: flex; 
+}
+main .main3_1 p {
+    margin-right: 190px;
+}
+main .main3_1 p img {
+    width: 100%;
+}
+main .main3_right {
+    margin-top: 122px;
+}
+main .main3_1 .main3_right .main3_title {
+    color: #9C2033;
+    font-size: 1.438rem; font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 22px;
+}
+main .main3_1 .main3_right .main3_1_contents {
+    font-size: 1.125rem; 
+    line-height: 35px; letter-spacing: -0.2px;
+    margin-bottom: 40px;
+}
+/* ==== Desing Lab */
+main .main4_1 {
+    margin-top: 208px;
+    margin-left: 340px;
+    display: flex;
+}
+main .main4_1 .main4_left {
+    margin-right: 247px;
+    margin-top: 229px;
+}
+main .main4_1 .main4_left .main4_title {
+    color: #9C2033;
+    font-size: 1.438rem; font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 22px;
+}
+main .main4_1 .main4_left .main4_1_contents {
+    font-size: 1.125rem; 
+    line-height: 35px; letter-spacing: -0.2px;
+}
+main .main4_1 .main4_right {}
+main .main4_1 .main4_right img {width: 100%;}
